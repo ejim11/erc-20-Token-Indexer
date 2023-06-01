@@ -82,7 +82,7 @@
 ## Usage
 - Input the ETH address and click on the "Check Erc-20 Token" button to see the lists of tokens.
 
-[![Product Usage][product-screenshot]]
+[![Usage][usage]](./src/assets/usage.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -133,7 +133,7 @@ Project Link: [https://github.com/github_username/erc-20-Token-Indexer](https://
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/favour-ejim-a29967238
 [product-screenshot]: ./src/assets/screenshot.png
-[product-usage]: ./src/assets/usage1.png
+[usage]: ./src/assets/usage.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Typescript]: https://img.shields.io/badge/Typescript-35495E?style=for-the-badge&logo=typescript&logoColor=4FC08D
