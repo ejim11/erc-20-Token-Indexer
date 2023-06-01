@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Network, Utils, Alchemy } from "alchemy-sdk"
+import { Network, Alchemy } from "alchemy-sdk"
 import TokenDetails from './TokenDetails';
 
 
@@ -17,7 +17,6 @@ const IndexerForm = () => {
     const [inputAddr, setInputAddr] = useState<string>("")
     const [results, setResults] = useState<any>(undefined);
     const [loading, setLoading] = useState<boolean>(false);
-    const [tokenDataObjects, setTokenDataObjects] = useState<any>([])
 
 
     const inputAddrChangeHandler = (e: React.ChangeEvent<HTMLInputElement>): void => {
@@ -54,7 +53,6 @@ const IndexerForm = () => {
 
             setInputAddr("")
             setResults(newarr)
-            setTokenDataObjects(await Promise.all(tokenDataPromises));
             setLoading(false)
         } catch (err) {
             console.log(err)
