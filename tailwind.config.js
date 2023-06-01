@@ -33,7 +33,11 @@ export default {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "main": "url(assets/RectLight.svg)"
+      }
+    },
   },
   plugins: [],
 }

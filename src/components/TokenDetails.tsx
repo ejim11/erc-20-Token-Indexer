@@ -35,7 +35,7 @@ const TokenDetails = ({ results, loading }: { results: Result[] | null[], loadin
         "block text-color-dark-blue bg-color-white py-1 px-2 rounded-lg  border border-color-dark-blue hover:text-color-white hover:bg-color-dark-blue transition-all tableData-200 ease-in ";
 
     return (
-        <div className='w-[60%] xlg:w-[80%] xmd:w-[95%]  my-[3rem]  mx-auto'>
+        <div className='w-[60%] xlg:w-[80%] xmd:w-[95%]  mt-[3rem] pb-[7rem] mx-auto'>
             <p className='text-center capitalize font-semibold mb-[2rem]'>ERC-20 token balances:</p>
             <div className='w-full  overflow-x-auto'>
                 <table className='w-full sm:w-[140vw]'>
