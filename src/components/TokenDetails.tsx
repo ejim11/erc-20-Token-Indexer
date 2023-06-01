@@ -84,8 +84,8 @@ const TokenDetails = ({ results, loading }: { results: Result[] | null[], loadin
                     pageCount={pageCount}
                     previousLabel={
                         <p className="flex items-center">
-                            <span className='sm:hidden'>previous</span>
                             <MdKeyboardArrowLeft className="text-color-current w-[2.5rem] h-[2.5rem]" />
+                            <span className='sm:hidden'>previous</span>
                         </p>
                     }
                     renderOnZeroPageCount={null}
