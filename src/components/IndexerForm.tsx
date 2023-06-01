@@ -75,7 +75,7 @@ const IndexerForm = () => {
         <>
             <form onSubmit={submitFormHandler} className='mt-[3rem] w-[70%] flex border border-color-border p-[2rem] xlg:w-[80%] xmd:w-[90%] xsm:flex-col xsm:p-0 sm:w-[92%] xsm:border-0  rounded-lg mx-auto'>
                 <div className='flex-1  xsm:w-full'>
-                <input type="text" name="address" id="address" value={inputAddr} placeholder='Input address...' onChange={inputAddrChangeHandler} className={`w-full py-[1rem] px-[2rem] border outline-0 ring-0 rounded-lg ${errorMsg? "border-color-red": "border-color-border"}`} minLength={42}/>
+                <input type="text" name="address" id="address" value={inputAddr} placeholder='Input address...' onChange={inputAddrChangeHandler} className={`w-full py-[1rem] px-[2rem] border outline-0 ring-0 rounded-lg ${errorMsg? "border-color-red": "border-color-border"}`} minLength={42} maxLength={42}/>
                 {errorMsg && <small className='text-[1.4rem] mt-[1rem] text-color-red'>{errorMsg}</small>}
                 </div>
                
